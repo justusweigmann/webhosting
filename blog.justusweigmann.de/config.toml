@@ -1,0 +1,28 @@
+baseURL = "https://blog.justusweigmann.de"
+languageCode = "en-us"
+title = "Justus Weigmann"
+theme = "paper"
+
+[params]
+  # color style
+  color = 'wheat'                           # linen, wheat, gray, light
+
+  # header social icons
+  # twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
+  github = 'justusweigmann'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'ju_will_see'           # instagram.com/YOUR_INSTAGRAM_ID
+  # mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
+  rss = true                                # show rss icon
+
+  # home page profile
+  avatar = ''                 # gravatar email or image url
+  name = 'Justus Weigmann'
+  bio = 'dSt Bachelor of Engineering Information and Communication Technology'
+  
+
+
+  # misc
+  disableHLJS = false                        # disable highlight.js
+  monoDarkIcon = false                       # show monochrome dark mode icon
+  #gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
