@@ -1,4 +1,0 @@
-[submodule "blog.justusweigmann.de/public"]
-	path = blog.justusweigmann.de/public
-	url = https://github.com/justusweigmann/blog.git
-	branch = main

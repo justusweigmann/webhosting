@@ -1,28 +1,44 @@
 baseURL = "https://blog.justusweigmann.de"
 languageCode = "en-us"
-title = "Justus Weigmann"
-theme = "paper"
+theme = "winston"
+themesDir = "themes"
+title = "Blog by Justus Weigmann"
+paginate = 3
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
 
 [params]
-  # color style
-  color = 'wheat'                           # linen, wheat, gray, light
+  google_analytics_id = ""
+  twitter_handle = ""
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showPostsOnHomepage = false
+  addDot = false
+  addFrame = false
+  highlightColor = '#0F658A'
+  baseColor = "#1A1A1A"
+  baseOffsetColor = "#eaeaea"
+  headingColor = "#0F658A"
+  textColor = "#FAFAFA"
+  dotColor = "#0F658A"
 
-  # header social icons
-  # twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
-  github = 'justusweigmann'                 # github.com/YOUR_GITHUB_ID
-  instagram = 'ju_will_see'           # instagram.com/YOUR_INSTAGRAM_ID
-  # mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
-  rss = true                                # show rss icon
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
 
-  # home page profile
-  avatar = ''                 # gravatar email or image url
-  name = 'Justus Weigmann'
-  bio = 'dSt Bachelor of Engineering Information and Communication Technology'
-  
-
-
-  # misc
-  disableHLJS = false                        # disable highlight.js
-  monoDarkIcon = false                       # show monochrome dark mode icon
-  #gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
