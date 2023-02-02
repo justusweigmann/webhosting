@@ -1,14 +1,22 @@
 ---
-title: "Connecting the World, One Engineer at a Time"
-date: 2023-01-24
+title: "Discovering the Power of Technology to Create a Brighter Future"
+date: 2023-02-01
 draft: false
-description: "A brief description of Hugo Shortcodes"
+tags: ["Technology", "Innovation", "Future"]
+categories: ["Blog", "Personal"]
+description: "Join me on my journey as a student and engineer as I explore the limitless potential of technology and its ability to shape a better future. Follow along for inspiration, motivation, and knowledge in the world of Information and Communication Technology."
 ---
 
-Welcome to my journey as a student and engineer, where I am exploring the possibilities of technology and its potential to shape a better future. As a student at Deutsche Telekom, I am gaining valuable knowledge and hands-on experience to help drive innovation in the field of Information and Communication Technology.
+Hello and welcome to my journey as a student and engineer, where I will be exploring the limitless potential 
+of technology and its ability to shape a better future. I am excited to share my knowledge, experiences, and 
+projects with you all and I hope this blog will be a platform for collaboration and inspiration. 
 
-As a Bachelor of Engineering in Information and Communication Technology, I am proud to be a part of the team at Deutsche Telekom AG. Not only am I gaining valuable knowledge in my studies, but I am also able to apply it in real-world scenarios as a member of the Operations UC & Voice & Cisco team at Deutsche Telekom Geschäftskunden GmbH. 
+From my studies at Deutsche Telekom to my involvement in the Finkwarder Speeldeel choir group and personal 
+projects in web design and photography/videography, I am constantly seeking new ways to grow and make a 
+positive impact through technology.
 
-But my passion for technology and innovation doesn't stop there. Outside of work and studies, I am a member of the Finkwarder Speeldeel, a local choir group, where I get to express my creativity on stage. I also indulge in web design and photography/videography as personal projects.
+I am looking forward to sharing my journey with you and I hope this blog will be a source of encouragement, 
+motivation, and knowledge for all those interested in the world of Information and Communication Technology.
 
-As I continue on my journey, I am excited to collaborate with others to create technologies that will connect people and bring them closer together. Together, we can make the world a better place through the power of connections and advancements in Information and Communication Technology.
+Thank you for joining me on this exciting journey and I can't wait to see what the future holds!
+

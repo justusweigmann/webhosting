@@ -1,44 +1,30 @@
 baseURL = "https://blog.justusweigmann.de"
 languageCode = "en-us"
-theme = "winston"
+theme = "simple"
 themesDir = "themes"
 title = "Blog by Justus Weigmann"
 paginate = 3
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
-
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.55.0"
-
-[params]
-  google_analytics_id = ""
-  twitter_handle = ""
-  showAuthorOnHomepage = true
-  showAuthorOnPosts = false
-  showPostsOnHomepage = false
-  addDot = false
-  addFrame = false
-  highlightColor = '#0F658A'
-  baseColor = "#1A1A1A"
-  baseOffsetColor = "#eaeaea"
-  headingColor = "#0F658A"
-  textColor = "#FAFAFA"
-  dotColor = "#0F658A"
-
-# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = true
-      xhtml = false
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
 
 [menu]
+
   [[menu.main]]
-    identifier = 'home'
-    name = 'Home'
-    url = '/'
-    weight = 1
+    identifier = "legal"
+    name = "LEGAL NOTICE"
+    url = "https://justben.de/legal-notice"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "privacy"
+    name = "PRIVACY POLICY"
+    url = "https://justben.de/privacy"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+description = "Come along with me on my journey as an Information and Communication Technology engineer as I uncover the boundless opportunities technology holds to create a brighter future."

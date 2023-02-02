@@ -52,7 +52,7 @@ theme = "raditian"
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Justus"
+    text1 = "Justus Benjamin"
     text2 = "Weigmann"
 
   [params.footer]
